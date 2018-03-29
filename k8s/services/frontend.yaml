@@ -18,6 +18,7 @@ metadata:
   name: gceme-frontend
 spec:
   type: LoadBalancer
+  loadBalancerIP: 35.188.42.123  
   ports:
   - name: http
     port: 80
